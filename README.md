@@ -7,7 +7,10 @@ Ensure Docker is installed on your system. You can download and install Docker f
 1. Pull PostgreSQL Docker Image: Pull the latest PostgreSQL image from Docker Hub:
 `docker pull postgres`
 
-2. Run PostgreSQL Container
+2. Build the docker image
+3. `docker build -t car_dealership_db .`
+
+4. Run PostgreSQL Container
 `docker run --name car_dealership_db -e POSTGRES_PASSWORD=password -d car_dealership_db`
 
 3. Then Verify the Container is Running
