@@ -1,0 +1,22 @@
+Car:
+- manufacturer
+- serial_number PK
+- model_name
+- weight
+- price
+
+Customer:
+- customer_id PK
+- customer_name
+- customer_phone
+
+Salesperson:
+- salesperson_id PK
+- salesperson_name
+
+Transactions:
+- transaction_id PK
+- transaction_date
+- customer_id
+- salesperson_id
+- car_id
