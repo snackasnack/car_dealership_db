@@ -3,7 +3,7 @@
 ## Prerequisites
 Ensure Docker is installed on your system. You can download and install Docker from [Docker's official website](https://www.docker.com/products/docker-desktop/).
 
-Steps
+## Steps
 1. Pull PostgreSQL Docker Image: Pull the latest PostgreSQL image from Docker Hub:
 `docker pull postgres`
 
