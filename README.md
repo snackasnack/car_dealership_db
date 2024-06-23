@@ -19,3 +19,4 @@ You should see your my_postgres container listed.
 `docker exec -it my_postgres psql -U postgres`
 
 ### There should be 4 datatables in car_dealership database: Car, Customer, Salesperson, Transactions
+![DE drawio](https://github.com/snackasnack/car_dealership_db/assets/72505694/b57894e3-333c-4489-acc9-b5e8f1e15aa2)
