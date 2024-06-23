@@ -19,7 +19,13 @@ Ensure Docker is installed on your system. You can download and install Docker f
 You should see your my_postgres container listed.
 
 4. Connect to PostgreSQL Database
-`docker exec -it my_postgres psql -U postgres`
+`docker exec -it car_dealership_db psql -U postgres`
+
+5. View Database in Docker
+List DB: `\l`
+Connect to DB: \c car_dealership_db`
+List datatables: `\dt`
+View Table Schema: `\d cars`
 
 ### There should be 4 datatables in car_dealership database: Car, Customer, Salesperson, Transactions
 ![DE drawio](https://github.com/snackasnack/car_dealership_db/assets/72505694/b57894e3-333c-4489-acc9-b5e8f1e15aa2)
